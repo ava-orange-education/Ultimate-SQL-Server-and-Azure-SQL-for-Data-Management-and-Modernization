@@ -1,4 +1,4 @@
-# SQL Server installation on Linux on a Windows Machine
+# 1_SQL Server installation on Linux on a Windows Machine
 
 ## Installing WSL2 on Windows to run Linux distributions:
 
