@@ -19,4 +19,35 @@ Now, connect to the IP Address in my case the output of the previous command was
    <p style="text-align:center;"><em>Figure 1</em></p>
 </p>
 
+## Create your first database
+
+Now, that you've connected to SQL Server you can click on new query and then run the following T-SQL (Transact SQL) to create your first database
+
+``` 
+create database myfirstdb
+```
+Create objects like your first table inside the database using the following T-SQL command
+
+```
+use myfirstdb
+go
+create table myfirsttable (i int , name char(10))
+```
+
+Insert values in your myfirsttable 
+
+```
+insert into myfirsttable values (1, 'Amit') 
+insert into myfirsttable values (1, 'Shivi') 
+insert into myfirsttable values (1, 'Praavi') 
+insert into myfirsttable values (1, 'Krishvi') 
+```
+
+Here is how the database and object looks in SSMS
+
+<p align="center">
+  <img src="./Table as seen in SSMS.png" alt="Figure 2: Table as seen in SSMS">
+   <p style="text-align:center;"><em>Figure 2</em></p>
+</p>
+
 This concludes the demo
