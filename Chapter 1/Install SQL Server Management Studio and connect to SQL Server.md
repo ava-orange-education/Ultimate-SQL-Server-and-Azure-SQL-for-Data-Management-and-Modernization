@@ -18,3 +18,5 @@ Now, connect to the IP Address in my case the output of the previous command was
   <img src="./figure 1 SSMS connection to SQL Server.jpg" alt="Figure 1: SSMS connection to SQL Server">
    <p style="text-align:center;"><em>Figure 1</em></p>
 </p>
+
+This concludes the demo
