@@ -2,7 +2,7 @@
 ## Kubernetes
 Kubernetes is a platform that helps you manage your container deployments. Containers are great for bundling and running apps, but managing many containers can get tricky. Imagine one of your app containers stops working—you'd have to start a new one yourself. Kubernetes automates this by handling tasks like starting new containers, scaling them up or down based on the overall load, and managing network access for applications inside containers. It makes using containers much easier and more efficient. To learn more please refer the [official Kubernetes documentation](https://kubernetes.io/docs/concepts/overview/)
 
-## prerequisite
+## Prerequisite
 1. An Azure account with active subscription to create an Azure Kubernetes Service (AKS) based cluster
 2. A Client machine, in this example I am using a Windows client machine (my laptop) and I will install Azure CLI on Windows as documented [here](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli). When you install Azure CLI it also install the kubectl which is a Kubernetes CLI to help you connect and work with the Kubernetes cluster.
 
