@@ -260,10 +260,4 @@ all:
       mssql_ha_replica_type: synchronous
 ```
 
-You can now connect to the primary node using SQL Server management studio and open the AG dashboard as shown here:
-
-
- <p align="center">
-   <img src="./Figure 1 AG dashboard in SSMS.png" alt="AG dashboard in SSMS">
-    <p style="text-align:center;"><em>Figure 1</em></p>
- </p>
+You can now connect to the primary node using SQL Server management studio and open the AG dashboard to view the Always On availability group created. 
